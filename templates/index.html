@@ -1702,7 +1702,7 @@
 
 <!-- ── Frontend Application Logic ── -->
 <script>
-const POLL_INTERVAL = 1200;
+const POLL_INTERVAL = 850;
 let isMuted = false;
 let catalog = {};
 let allItems = {};
@@ -2401,10 +2401,7 @@ async function triggerScan(uid) {
 }
 
 // ── Poll All Data from Server ──
-let isFetching = false;
 async function fetchAllData() {
-  if (isFetching) return;
-  isFetching = true;
   try {
     const [statsRes, itemsRes, logsRes, catRes, rcptRes] = await Promise.all([
       fetch('/stats', { cache: 'no-store' }),
@@ -2455,8 +2452,6 @@ async function fetchAllData() {
   } catch(e) {
     el('connDot').className = 'dot off';
     el('connStatus').textContent = 'Server Offline';
-  } finally {
-    isFetching = false;
   }
 }
 
@@ -2648,12 +2643,9 @@ el('formProduct').addEventListener('submit', async (e) => {
   }
 });
 
-// ── Safe Polling Loop (Prevents request pile-up) ──
-async function pollLoop() {
-  await fetchAllData();
-  setTimeout(pollLoop, POLL_INTERVAL);
-}
-pollLoop();
+// ── Startup & Polling Loop ──
+fetchAllData();
+setInterval(fetchAllData, POLL_INTERVAL);
 </script>
 </body>
 </html>

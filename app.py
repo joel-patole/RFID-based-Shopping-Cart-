@@ -3,8 +3,7 @@ import json
 import uuid
 from datetime import datetime, timezone
 from flask import Flask, request, jsonify, render_template, make_response
-from supabase import create_client
-from dotenv import load_dotenv
+from pymongo import MongoClient, ASCENDING, DESCENDING
 
 app = Flask(__name__)
 
@@ -13,115 +12,25 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PRODUCTS_FILE = os.path.join(BASE_DIR, 'products.json')
 RECEIPTS_FILE = os.path.join(BASE_DIR, 'receipts.json')
 
-# Supabase configuration (credentials are read from .env)
-load_dotenv()
-SUPABASE_URL = os.getenv("SUPABASE_URL", "").strip()
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "").strip()
-supabase = None
- 
-# Small adapter that keeps the original app routes working while using Supabase.
-def _clean(value):
-    if isinstance(value, datetime):
-        return value.isoformat()
-    if isinstance(value, dict):
-        return {k: _clean(v) for k, v in value.items()}
-    if isinstance(value, list):
-        return [_clean(v) for v in value]
-    return value
+# Database Configuration
+MONGO_URI     = os.getenv('MONGO_URI',     'mongodb://localhost:27017/')
+MONGO_DB_NAME = os.getenv('MONGO_DB_NAME', 'rfid_shopping_cart')
 
-class _QueryRows(list):
-    def sort(self, key, direction=1):
-        reverse = direction in (-1, "desc", "descending")
-        super().sort(key=lambda row: row.get(key) or "", reverse=reverse)
-        return self
-
-    def limit(self, count):
-        return _QueryRows(self[:count])
-
-class SupabaseCollection:
-    def __init__(self, table, primary_key):
-        self.table = table
-        self.primary_key = primary_key
-
-    def create_index(self, *args, **kwargs):
-        return None  # Indexes are managed in Supabase SQL Editor.
-
-    def find(self, query=None, projection=None):
-        response = supabase.table(self.table).select("*").execute()
-        rows = [r for r in (response.data or []) if all(r.get(k) == v for k, v in (query or {}).items())]
-        if projection:
-            excluded = [k for k, v in projection.items() if v == 0]
-            included = [k for k, v in projection.items() if v == 1]
-            if included:
-                rows = [{k: r.get(k) for k in included if k in r} for r in rows]
-            elif excluded:
-                rows = [{k: v for k, v in r.items() if k not in excluded} for r in rows]
-        return _QueryRows(rows)
-
-    def find_one(self, query=None, projection=None):
-        rows = self.find(query, projection)
-        return rows[0] if rows else None
-
-    def update_one(self, query, update, upsert=False):
-        values = _clean(update.get("$set", update))
-        if upsert:
-            values.update(query or {})
-            return supabase.table(self.table).upsert(values, on_conflict=self.primary_key).execute()
-        existing = self.find_one(query)
-        if existing:
-            return supabase.table(self.table).update(values).eq(self.primary_key, existing[self.primary_key]).execute()
-        return None
-
-    def update_many(self, query, update):
-        values = _clean(update.get("$set", update))
-        if query and len(query) == 1:
-            k, v = next(iter(query.items()))
-            return supabase.table(self.table).update(values).eq(k, v).execute()
-        rows = self.find(query)
-        result = None
-        for row in rows:
-            result = supabase.table(self.table).update(values).eq(self.primary_key, row[self.primary_key]).execute()
-        return result
-
-    def insert_one(self, document):
-        return supabase.table(self.table).insert(_clean(document)).execute()
-
-    def delete_one(self, query):
-        row = self.find_one(query)
-        if row:
-            return supabase.table(self.table).delete().eq(self.primary_key, row[self.primary_key]).execute()
-        return None
-
-    def delete_many(self, query):
-        if not query:
-            dummy_val = -1 if self.primary_key == "id" else "___none___"
-            return supabase.table(self.table).delete().neq(self.primary_key, dummy_val).execute()
-        rows = self.find(query)
-        result = None
-        for row in rows:
-            result = supabase.table(self.table).delete().eq(self.primary_key, row[self.primary_key]).execute()
-        return result
-
-    def count_documents(self, query=None):
-        return len(self.find(query))
-
-items_col = scans_col = products_col = receipts_col = None
-if SUPABASE_URL and SUPABASE_KEY:
-    try:
-        supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-        items_col = SupabaseCollection("cart_items", "item_id")
-        scans_col = SupabaseCollection("scan_logs", "id")
-        products_col = SupabaseCollection("products", "item_id")
-        receipts_col = SupabaseCollection("receipts", "receipt_id")
-        # A lightweight request confirms credentials and table access.
-        supabase.table("products").select("item_id").limit(1).execute()
-        print("[Supabase] Connected successfully")
-    except Exception as err:
-        print(f"[Supabase] Connection failed ({err}); using JSON/in-memory fallback")
-        supabase = None
-        items_col = scans_col = products_col = receipts_col = None
-else:
-    print("[Supabase] Credentials missing; using JSON/in-memory fallback")
+mongo_client = items_col = scans_col = products_col = receipts_col = None
+try:
+    mongo_client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=2500)
+    mongo_client.admin.command('ping')
+    _db = mongo_client[MONGO_DB_NAME]
+    items_col = _db['items']
+    scans_col = _db['scans']
+    products_col = _db['products']
+    receipts_col = _db['receipts']
+    items_col.create_index([('item_id', ASCENDING)], unique=True)
+    scans_col.create_index([('timestamp_iso', DESCENDING)])
+    print(f"[MongoDB] Connected -> {MONGO_URI}  db={MONGO_DB_NAME}")
+except Exception as err:
+    print(f"[MongoDB] Not connected ({err}) -- using persistent JSON / in-memory fallback")
+    mongo_client = items_col = scans_col = products_col = receipts_col = None
 
 # Fallback in-memory storage
 _mem_items = {}     # item_id -> item state
@@ -270,15 +179,21 @@ def save_products_to_disk():
 load_products_from_disk()
 
 def get_product(item_id):
-    """Retrieve product details for a given item_id from cache, creating a default if unknown."""
+    """Retrieve product details for a given item_id, creating a default if unknown."""
     global _mem_products
     item_id = str(item_id).upper().strip()
+    if products_col is not None:
+        try:
+            p = products_col.find_one({"item_id": item_id}, {"_id": 0})
+            if p:
+                return p
+        except Exception:
+            pass
 
-    # 1. Fast in-memory cache lookup
     if item_id in _mem_products:
         return _mem_products[item_id]
 
-    # 2. Assign smart Indian product for uncataloged scanned tags
+    # Assign smart Indian product for uncataloged scanned tags
     short_id = item_id[-4:] if len(item_id) >= 4 else item_id
     new_product = {
         "item_id": item_id,
@@ -291,7 +206,6 @@ def get_product(item_id):
     _mem_products[item_id] = new_product
     save_products_to_disk()
 
-    # Persist newly created product to Supabase in background
     if products_col is not None:
         try:
             products_col.update_one({"item_id": item_id}, {"$set": new_product}, upsert=True)
@@ -348,59 +262,18 @@ def save_receipt_to_disk(rcpt):
 
 load_receipts_from_disk()
 
-def sync_initial_state_from_supabase():
-    """Load existing data from Supabase once on startup into high-speed memory cache."""
-    global _mem_products, _mem_items, _mem_log, _mem_receipts
-    if supabase is None:
-        return
-    try:
-        # 1. Sync product catalog
-        res_prod = supabase.table("products").select("*").execute()
-        if res_prod.data and len(res_prod.data) > 0:
-            for p in res_prod.data:
-                _mem_products[p["item_id"]] = p
-            save_products_to_disk()
-            print(f"[Supabase] Synced {len(_mem_products)} products from cloud")
-        else:
-            # Seed initial products in chunks if Supabase is empty
-            to_upload = list(_mem_products.values())
-            for i in range(0, len(to_upload), 20):
-                try:
-                    supabase.table("products").upsert(to_upload[i:i+20], on_conflict="item_id").execute()
-                except Exception:
-                    pass
-            print(f"[Supabase] Seeded initial product catalogue ({len(_mem_products)} products)")
-
-        # 2. Sync active cart items
-        res_items = supabase.table("cart_items").select("*").execute()
-        if res_items.data:
-            for item in res_items.data:
-                _mem_items[item["item_id"]] = item
-            print(f"[Supabase] Synced {len(_mem_items)} cart items from cloud")
-
-        # 3. Sync recent scan logs
-        res_logs = supabase.table("scan_logs").select("*").order("timestamp_iso", desc=True).limit(200).execute()
-        if res_logs.data:
-            _mem_log = res_logs.data
-            print(f"[Supabase] Synced {len(_mem_log)} scan logs from cloud")
-
-        # 4. Sync past checkout receipts
-        res_rcpt = supabase.table("receipts").select("*").order("timestamp", desc=True).limit(50).execute()
-        if res_rcpt.data:
-            known_ids = {r.get("receipt_id") for r in _mem_receipts if r.get("receipt_id")}
-            for r in res_rcpt.data:
-                if r.get("receipt_id") not in known_ids:
-                    _mem_receipts.append(r)
-            _mem_receipts.sort(key=lambda r: r.get("timestamp", ""), reverse=True)
-            print(f"[Supabase] Synced {len(_mem_receipts)} receipts from cloud")
-    except Exception as _sync_err:
-        print(f"[Supabase] Initial sync note ({_sync_err}) -- continuing with local cache")
-
-sync_initial_state_from_supabase()
-
 def calculate_active_cart():
-    """Calculate active items in cart and total price from high-speed memory cache."""
-    active_items = [v for v in _mem_items.values() if v.get("status") == "registered"]
+    """Calculate active items in cart and total price."""
+    active_items = []
+    if items_col is not None:
+        try:
+            docs = list(items_col.find({"status": "registered"}, {"_id": 0}))
+            active_items = docs
+        except Exception:
+            active_items = [v for v in _mem_items.values() if v.get("status") == "registered"]
+    else:
+        active_items = [v for v in _mem_items.values() if v.get("status") == "registered"]
+
     subtotal = sum(float(item.get("product", {}).get("price", 0.0)) for item in active_items)
     subtotal = round(subtotal, 2)
     tax = round(subtotal * 0.05, 2)
@@ -424,20 +297,21 @@ def index():
     return render_template('index.html')
 
 def _save_item_and_log(item_id, item_record, log_record):
-    global _mem_items, _mem_log
-    # 1. Update memory immediately for 0ms dashboard reactivity
-    _mem_items[item_id] = item_record
-    _mem_log.insert(0, log_record)
-    if len(_mem_log) > 200:
-        _mem_log.pop()
-
-    # 2. Persist to Supabase in background
     if items_col is not None and scans_col is not None:
         try:
             items_col.update_one({"item_id": item_id}, {"$set": item_record}, upsert=True)
             scans_col.insert_one(dict(log_record))
         except Exception as e:
-            print(f"[Supabase save warning] {e}")
+            print(f"[MongoDB save error] {e}")
+            _mem_items[item_id] = item_record
+            _mem_log.insert(0, log_record)
+            if len(_mem_log) > 200:
+                _mem_log.pop()
+    else:
+        _mem_items[item_id] = item_record
+        _mem_log.insert(0, log_record)
+        if len(_mem_log) > 200:
+            _mem_log.pop()
 
 @app.route('/settings', methods=['GET', 'POST'])
 def handle_settings():
@@ -459,13 +333,13 @@ def remove_specific_item(item_id):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     existing = None
-    if item_id in _mem_items:
-        existing = _mem_items[item_id]
-    elif items_col is not None:
+    if items_col is not None:
         try:
             existing = items_col.find_one({"item_id": item_id})
         except Exception:
             pass
+    if not existing and item_id in _mem_items:
+        existing = _mem_items[item_id]
 
     product = (existing and existing.get("product")) or get_product(item_id)
     scan_count = (existing and existing.get("scan_count", 1)) + 1 if existing else 1
@@ -621,6 +495,7 @@ def scan():
 
             item_record = {
                 "item_id": new_uid,
+                "physical_card_uid": item_id,
                 "cart_id": cart_id,
                 "status": "registered",
                 "action": "added",
@@ -669,17 +544,18 @@ def scan():
     current_status = None
     prev_scan_count = 0
 
-    if item_id in _mem_items:
-        current_status = _mem_items[item_id].get("status", "unregistered")
-        prev_scan_count = _mem_items[item_id].get("scan_count", 0)
-    elif items_col is not None:
+    if items_col is not None:
         try:
             existing = items_col.find_one({"item_id": item_id})
             if existing:
                 current_status = existing.get("status", "unregistered")
                 prev_scan_count = existing.get("scan_count", 0)
         except Exception as e:
-            print(f"[Supabase scan check] {e}")
+            print(f"[MongoDB scan check] {e}")
+
+    if current_status is None and item_id in _mem_items:
+        current_status = _mem_items[item_id].get("status", "unregistered")
+        prev_scan_count = _mem_items[item_id].get("scan_count", 0)
 
     if current_status == "registered":
         event_type = "unregistered"
@@ -741,7 +617,27 @@ def scan():
 
 @app.route('/items')
 def get_items():
-    """Return all known items with their latest status and product details from memory cache."""
+    """Return all known items with their latest status and product details."""
+    if items_col is not None:
+        try:
+            result = {}
+            for doc in items_col.find({}):
+                uid = doc.get("item_id")
+                if uid:
+                    p = doc.get("product") or get_product(uid)
+                    result[uid] = {
+                        "item_id": uid,
+                        "status": doc.get("status", "registered"),
+                        "cart_id": doc.get("cart_id", ""),
+                        "timestamp": doc.get("timestamp", ""),
+                        "scan_count": doc.get("scan_count", 1),
+                        "product": p
+                    }
+            return jsonify(result)
+        except Exception as e:
+            print(f"[MongoDB /items] {e}")
+
+    # Fallback to memory
     result = {}
     for uid, v in _mem_items.items():
         p = v.get("product") or get_product(uid)
@@ -757,26 +653,40 @@ def get_items():
 
 @app.route('/cart')
 def get_cart():
-    """Return only active items in the cart and running totals from memory cache."""
+    """Return only active items in the cart and running totals."""
     summary = calculate_active_cart()
     summary["last_cart_id"] = _last_cart_id
     return jsonify(summary)
 
 @app.route('/log')
 def get_log():
-    """Return chronological scan history from memory cache."""
+    """Return chronological scan history."""
+    if scans_col is not None:
+        try:
+            docs = list(scans_col.find({}, {"_id": 0, "timestamp_iso": 0}).sort("timestamp_iso", -1).limit(200))
+            return jsonify(docs)
+        except Exception as e:
+            print(f"[MongoDB /log] {e}")
+    # Memory fallback
     clean_logs = []
     for entry in _mem_log:
         e = dict(entry)
         e.pop("timestamp_iso", None)
         clean_logs.append(e)
-    return jsonify(clean_logs[:200])
+    return jsonify(clean_logs)
 
 @app.route('/products', methods=['GET', 'POST'])
 def handle_products():
     """List or add/update products in the catalog."""
     global _mem_products
     if request.method == 'GET':
+        if products_col is not None:
+            try:
+                docs = list(products_col.find({}, {"_id": 0}))
+                if docs:
+                    return jsonify({d["item_id"]: d for d in docs})
+            except Exception:
+                pass
         return jsonify(_mem_products)
 
     # POST: create or update product
@@ -906,14 +816,43 @@ def checkout():
 
 @app.route('/receipts')
 def get_receipts():
-    """Return past checkout receipts from memory cache."""
-    return jsonify(_mem_receipts[:50])
+    """Return past checkout receipts."""
+    if receipts_col is not None:
+        try:
+            docs = list(receipts_col.find({}, {"_id": 0}).sort("timestamp", -1).limit(50))
+            if docs:
+                return jsonify(docs)
+        except Exception:
+            pass
+    return jsonify(_mem_receipts)
 
 @app.route('/stats')
 def get_stats():
-    """Return comprehensive system and cart statistics from fast memory."""
+    """Return comprehensive system and cart statistics."""
     cart_summary = calculate_active_cart()
     total_products = len(_mem_products)
+
+    if items_col is not None and scans_col is not None:
+        try:
+            total_items = items_col.count_documents({})
+            reg = items_col.count_documents({"status": "registered"})
+            unreg = items_col.count_documents({"status": "unregistered"})
+            scans_count = scans_col.count_documents({})
+            return jsonify({
+                "active_items": reg,
+                "unregistered_items": unreg,
+                "total_items": total_items,
+                "total_products": total_products,
+                "total_scans": scans_count,
+                "cart_subtotal": cart_summary["subtotal"],
+                "cart_tax": cart_summary["tax"],
+                "cart_total": cart_summary["total"],
+                "last_cart_id": _last_cart_id,
+                "db_mode": "mongodb"
+            })
+        except Exception as e:
+            print(f"[MongoDB /stats] {e}")
+
     total = len(_mem_items)
     reg = sum(1 for v in _mem_items.values() if v.get("status") == "registered")
     return jsonify({
@@ -926,20 +865,20 @@ def get_stats():
         "cart_tax": cart_summary["tax"],
         "cart_total": cart_summary["total"],
         "last_cart_id": _last_cart_id,
-        "db_mode": "supabase" if supabase else "memory"
+        "db_mode": "memory"
     })
 
 @app.route('/reset', methods=['POST'])
 def reset():
     """Clear active cart items and scan history."""
-    _mem_items.clear()
-    _mem_log.clear()
-    if items_col is not None and scans_col is not None:
+    if items_col is not None:
         try:
             items_col.delete_many({})
             scans_col.delete_many({})
-        except Exception as e:
-            print(f"[Supabase reset warning] {e}")
+        except Exception:
+            pass
+    _mem_items.clear()
+    _mem_log.clear()
     return jsonify({"status": "ok", "message": "Cart and logs cleared successfully"})
 
 @app.route('/health')
@@ -967,7 +906,7 @@ if __name__ == '__main__':
     local_ip = get_local_ip()
     print("=" * 60)
     print("  🛒 SMART RFID SHOPPING CART SERVER")
-    print(f"  Supabase    : {'connected' if supabase else 'not configured / fallback'}")
+    print(f"  MongoDB     : {MONGO_URI} (db={MONGO_DB_NAME})")
     print(f"  Mac LAN IP  : {local_ip}")
     print(f"  Dashboard   : http://localhost:{port} (or http://{local_ip}:{port})")
     print(f"  Arduino URL : http://{local_ip}:{port}/scan (POST)")
