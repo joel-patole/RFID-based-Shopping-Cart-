@@ -1,0 +1,1650 @@
+{
+  "4344E819": {
+    "item_id": "4344E819",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "B3BDC50E": {
+    "item_id": "B3BDC50E",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "43A7F29B": {
+    "item_id": "43A7F29B",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E2806894": {
+    "item_id": "E2806894",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "B1C2D3E4": {
+    "item_id": "B1C2D3E4",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "90A1B2C3": {
+    "item_id": "90A1B2C3",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "F5E4D3C2": {
+    "item_id": "F5E4D3C2",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "A0B1C2D3": {
+    "item_id": "A0B1C2D3",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "D4E5F6A1": {
+    "item_id": "D4E5F6A1",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "718293A4": {
+    "item_id": "718293A4",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "99AA88BB": {
+    "item_id": "99AA88BB",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "88223344": {
+    "item_id": "88223344",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E8197879": {
+    "item_id": "E8197879",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819759F": {
+    "item_id": "E819759F",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81992CB": {
+    "item_id": "E81992CB",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819835A": {
+    "item_id": "E819835A",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819C0B7": {
+    "item_id": "E819C0B7",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819E2F8": {
+    "item_id": "E819E2F8",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819D946": {
+    "item_id": "E819D946",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8195486": {
+    "item_id": "E8195486",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8199FEF": {
+    "item_id": "E8199FEF",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819FDBA": {
+    "item_id": "E819FDBA",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819EEA6": {
+    "item_id": "E819EEA6",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819E18D": {
+    "item_id": "E819E18D",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E8195029": {
+    "item_id": "E8195029",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E8190904": {
+    "item_id": "E8190904",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8192942": {
+    "item_id": "E8192942",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819C620": {
+    "item_id": "E819C620",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819142C": {
+    "item_id": "E819142C",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819ABFD": {
+    "item_id": "E819ABFD",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819009E": {
+    "item_id": "E819009E",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819E7EB": {
+    "item_id": "E819E7EB",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E8191274": {
+    "item_id": "E8191274",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819E7BA": {
+    "item_id": "E819E7BA",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819EC77": {
+    "item_id": "E819EC77",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8190C17": {
+    "item_id": "E8190C17",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8198570": {
+    "item_id": "E8198570",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819EF63": {
+    "item_id": "E819EF63",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819635E": {
+    "item_id": "E819635E",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8190B51": {
+    "item_id": "E8190B51",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8199120": {
+    "item_id": "E8199120",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819A90A": {
+    "item_id": "E819A90A",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8190278": {
+    "item_id": "E8190278",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E8193138": {
+    "item_id": "E8193138",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E8198897": {
+    "item_id": "E8198897",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E8192671": {
+    "item_id": "E8192671",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E8192EFD": {
+    "item_id": "E8192EFD",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8193525": {
+    "item_id": "E8193525",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8190745": {
+    "item_id": "E8190745",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819031D": {
+    "item_id": "E819031D",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81900BA": {
+    "item_id": "E81900BA",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8191A3E": {
+    "item_id": "E8191A3E",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819C5F5": {
+    "item_id": "E819C5F5",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819C898": {
+    "item_id": "E819C898",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8192500": {
+    "item_id": "E8192500",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E8194355": {
+    "item_id": "E8194355",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8194B45": {
+    "item_id": "E8194B45",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E8197854": {
+    "item_id": "E8197854",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E819E41A": {
+    "item_id": "E819E41A",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E8198EAA": {
+    "item_id": "E8198EAA",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819C661": {
+    "item_id": "E819C661",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819D66A": {
+    "item_id": "E819D66A",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819CBE3": {
+    "item_id": "E819CBE3",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "88BBFB1A": {
+    "item_id": "88BBFB1A",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "C50E5351": {
+    "item_id": "C50E5351",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819230F": {
+    "item_id": "E819230F",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819FE76": {
+    "item_id": "E819FE76",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8195585": {
+    "item_id": "E8195585",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E8194759": {
+    "item_id": "E8194759",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8199084": {
+    "item_id": "E8199084",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8193C67": {
+    "item_id": "E8193C67",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8197432": {
+    "item_id": "E8197432",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819237E": {
+    "item_id": "E819237E",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E81979D6": {
+    "item_id": "E81979D6",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "79D6125F": {
+    "item_id": "79D6125F",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E8197738": {
+    "item_id": "E8197738",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819A7E6": {
+    "item_id": "E819A7E6",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819AB89": {
+    "item_id": "E819AB89",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E819336E": {
+    "item_id": "E819336E",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E81970D3": {
+    "item_id": "E81970D3",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E819D844": {
+    "item_id": "E819D844",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819599B": {
+    "item_id": "E819599B",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819A69D": {
+    "item_id": "E819A69D",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819D03F": {
+    "item_id": "E819D03F",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81953D3": {
+    "item_id": "E81953D3",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8198672": {
+    "item_id": "E8198672",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819C494": {
+    "item_id": "E819C494",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8193C42": {
+    "item_id": "E8193C42",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819F013": {
+    "item_id": "E819F013",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819CA7D": {
+    "item_id": "E819CA7D",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81988C4": {
+    "item_id": "E81988C4",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819334E": {
+    "item_id": "E819334E",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E81975B0": {
+    "item_id": "E81975B0",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819A7CA": {
+    "item_id": "E819A7CA",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819C1C9": {
+    "item_id": "E819C1C9",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819BEF7": {
+    "item_id": "E819BEF7",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819B698": {
+    "item_id": "E819B698",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E81999F9": {
+    "item_id": "E81999F9",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E81915EA": {
+    "item_id": "E81915EA",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E81979F7": {
+    "item_id": "E81979F7",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E819F290": {
+    "item_id": "E819F290",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "C50EFFA8": {
+    "item_id": "C50EFFA8",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "C50EDF44": {
+    "item_id": "C50EDF44",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "C50E77E4": {
+    "item_id": "C50E77E4",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "C50EDC9A": {
+    "item_id": "C50EDC9A",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "C50E1888": {
+    "item_id": "C50E1888",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "C50E7F4F": {
+    "item_id": "C50E7F4F",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819172B": {
+    "item_id": "E819172B",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8190D7C": {
+    "item_id": "E8190D7C",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8194F10": {
+    "item_id": "E8194F10",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8197E16": {
+    "item_id": "E8197E16",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E8197F69": {
+    "item_id": "E8197F69",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819AFD7": {
+    "item_id": "E819AFD7",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819722C": {
+    "item_id": "E819722C",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819534E": {
+    "item_id": "E819534E",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8199CFA": {
+    "item_id": "E8199CFA",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819DCEE": {
+    "item_id": "E819DCEE",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E819A0AD": {
+    "item_id": "E819A0AD",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E8196F86": {
+    "item_id": "E8196F86",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819A285": {
+    "item_id": "E819A285",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8195E13": {
+    "item_id": "E8195E13",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819F420": {
+    "item_id": "E819F420",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E8194B1B": {
+    "item_id": "E8194B1B",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819FE0A": {
+    "item_id": "E819FE0A",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8198103": {
+    "item_id": "E8198103",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81972D7": {
+    "item_id": "E81972D7",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819598F": {
+    "item_id": "E819598F",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E8195196": {
+    "item_id": "E8195196",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8193616": {
+    "item_id": "E8193616",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E81984D3": {
+    "item_id": "E81984D3",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819E05C": {
+    "item_id": "E819E05C",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E81972C4": {
+    "item_id": "E81972C4",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E8198E8F": {
+    "item_id": "E8198E8F",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E819B372": {
+    "item_id": "E819B372",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E8191554": {
+    "item_id": "E8191554",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E8196216": {
+    "item_id": "E8196216",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8192B2A": {
+    "item_id": "E8192B2A",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819A263": {
+    "item_id": "E819A263",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819FE8A": {
+    "item_id": "E819FE8A",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819E177": {
+    "item_id": "E819E177",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E81956AA": {
+    "item_id": "E81956AA",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8195BAC": {
+    "item_id": "E8195BAC",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819A211": {
+    "item_id": "E819A211",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E81993BF": {
+    "item_id": "E81993BF",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819E27B": {
+    "item_id": "E819E27B",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819CE9B": {
+    "item_id": "E819CE9B",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8193DA9": {
+    "item_id": "E8193DA9",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8195691": {
+    "item_id": "E8195691",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E81962BE": {
+    "item_id": "E81962BE",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8191A1E": {
+    "item_id": "E8191A1E",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E81977BA": {
+    "item_id": "E81977BA",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8194AD9": {
+    "item_id": "E8194AD9",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819FB57": {
+    "item_id": "E819FB57",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819A1CC": {
+    "item_id": "E819A1CC",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8192908": {
+    "item_id": "E8192908",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819D32A": {
+    "item_id": "E819D32A",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819D683": {
+    "item_id": "E819D683",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8192A5C": {
+    "item_id": "E8192A5C",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819AB50": {
+    "item_id": "E819AB50",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E81992A6": {
+    "item_id": "E81992A6",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819EF8A": {
+    "item_id": "E819EF8A",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8198A76": {
+    "item_id": "E8198A76",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E8191CAD": {
+    "item_id": "E8191CAD",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819E0CF": {
+    "item_id": "E819E0CF",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819867E": {
+    "item_id": "E819867E",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819139B": {
+    "item_id": "E819139B",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819EED2": {
+    "item_id": "E819EED2",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8195D02": {
+    "item_id": "E8195D02",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E819EC9A": {
+    "item_id": "E819EC9A",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819A4AB": {
+    "item_id": "E819A4AB",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E819BE34": {
+    "item_id": "E819BE34",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E819E155": {
+    "item_id": "E819E155",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E8199B1D": {
+    "item_id": "E8199B1D",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E819418D": {
+    "item_id": "E819418D",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E8191B81": {
+    "item_id": "E8191B81",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E819F7A0": {
+    "item_id": "E819F7A0",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E819AE6B": {
+    "item_id": "E819AE6B",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8199C8C": {
+    "item_id": "E8199C8C",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8194F23": {
+    "item_id": "E8194F23",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8198C9F": {
+    "item_id": "E8198C9F",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819E6CC": {
+    "item_id": "E819E6CC",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8191B93": {
+    "item_id": "E8191B93",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819E45D": {
+    "item_id": "E819E45D",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E8196FC4": {
+    "item_id": "E8196FC4",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E819A4E3": {
+    "item_id": "E819A4E3",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8195F1A": {
+    "item_id": "E8195F1A",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819BCD1": {
+    "item_id": "E819BCD1",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E819641E": {
+    "item_id": "E819641E",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E8191DAA": {
+    "item_id": "E8191DAA",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E8196D42": {
+    "item_id": "E8196D42",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8198027": {
+    "item_id": "E8198027",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E8197D40": {
+    "item_id": "E8197D40",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E819FF8B": {
+    "item_id": "E819FF8B",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E819F696": {
+    "item_id": "E819F696",
+    "name": "Tata Tea Gold (250g)",
+    "price": 140.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+  },
+  "E8199E99": {
+    "item_id": "E8199E99",
+    "name": "Cadbury Dairy Milk Silk (60g)",
+    "price": 85.0,
+    "category": "Snacks",
+    "icon": "🍫",
+    "description": "Smooth and creamy pure milk chocolate bar"
+  },
+  "E81927A5": {
+    "item_id": "E81927A5",
+    "name": "Fresh Royal Gala Apples (1kg)",
+    "price": 160.0,
+    "category": "Produce",
+    "icon": "🍎",
+    "description": "Crisp sweet Shimla hill orchard apples"
+  },
+  "E81928F9": {
+    "item_id": "E81928F9",
+    "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+    "price": 56.0,
+    "category": "Pantry",
+    "icon": "🍜",
+    "description": "Classic Indian spice blend instant wheat noodles 280g"
+  },
+  "E8193D0D": {
+    "item_id": "E8193D0D",
+    "name": "Lay's India's Magic Masala Chips",
+    "price": 20.0,
+    "category": "Snacks",
+    "icon": "🥔",
+    "description": "Crunchy ridge-cut spiced potato chips 50g"
+  },
+  "E81965ED": {
+    "item_id": "E81965ED",
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "price": 135.0,
+    "category": "Pantry",
+    "icon": "🌻",
+    "description": "Light, healthy and cholesterol-friendly cooking oil"
+  },
+  "E819934E": {
+    "item_id": "E819934E",
+    "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+    "price": 245.0,
+    "category": "Pantry",
+    "icon": "🌾",
+    "description": "100% whole wheat grain chakki ground flour"
+  },
+  "E8190CA2": {
+    "item_id": "E8190CA2",
+    "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+    "price": 28.0,
+    "category": "Pantry",
+    "icon": "🧂",
+    "description": "Desh Ka Namak purest iodized cooking salt"
+  },
+  "E8196339": {
+    "item_id": "E8196339",
+    "name": "Nescafe Classic Instant Coffee (50g)",
+    "price": 165.0,
+    "category": "Beverages",
+    "icon": "☕",
+    "description": "100% pure roasted robusta coffee beans"
+  },
+  "E819E43C": {
+    "item_id": "E819E43C",
+    "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+    "price": 99.0,
+    "category": "Personal Care",
+    "icon": "🧴",
+    "description": "Antibacterial ph-balanced hand soap refill pack"
+  },
+  "E819394F": {
+    "item_id": "E819394F",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  },
+  "E8193890": {
+    "item_id": "E8193890",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "price": 45.0,
+    "category": "Bakery",
+    "icon": "🍞",
+    "description": "Zero maida high fiber whole wheat bread 400g"
+  },
+  "E8193E57": {
+    "item_id": "E8193E57",
+    "name": "Amul Taaza Fresh Milk 1L",
+    "price": 54.0,
+    "category": "Dairy",
+    "icon": "🥛",
+    "description": "Pasteurized homogenized toned milk"
+  }
+}

@@ -1,0 +1,1139 @@
+[
+  {
+    "receipt_id": "RCPT-202611061220-EEEA",
+    "timestamp": "2026-11-06 12:20:44",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E8196339",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8196339",
+          "name": "Nescafe Classic Instant Coffee (50g)",
+          "price": 165.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "100% pure roasted robusta coffee beans"
+        },
+        "timestamp": "2026-11-06 12:20:15",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:50:15"
+      },
+      {
+        "item_id": "E819E43C",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819E43C",
+          "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+          "price": 99.0,
+          "category": "Personal Care",
+          "icon": "🧴",
+          "description": "Antibacterial ph-balanced hand soap refill pack"
+        },
+        "timestamp": "2026-11-06 12:20:20",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:50:20"
+      },
+      {
+        "item_id": "E819394F",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819394F",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 12:20:23",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:50:23"
+      },
+      {
+        "item_id": "E8193890",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8193890",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-11-06 12:20:26",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:50:26"
+      },
+      {
+        "item_id": "E8193E57",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8193E57",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 12:20:30",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:50:30"
+      }
+    ],
+    "subtotal": 417.0,
+    "tax": 20.85,
+    "total": 437.85,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202611061216-4E73",
+    "timestamp": "2026-11-06 12:16:12",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E81928F9",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E81928F9",
+          "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+          "price": 56.0,
+          "category": "Pantry",
+          "icon": "🍜",
+          "description": "Classic Indian spice blend instant wheat noodles 280g"
+        },
+        "timestamp": "2026-11-06 12:15:18",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:45:18"
+      },
+      {
+        "item_id": "E8193D0D",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8193D0D",
+          "name": "Lay's India's Magic Masala Chips",
+          "price": 20.0,
+          "category": "Snacks",
+          "icon": "🥔",
+          "description": "Crunchy ridge-cut spiced potato chips 50g"
+        },
+        "timestamp": "2026-11-06 12:15:30",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:45:30"
+      },
+      {
+        "item_id": "E81965ED",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E81965ED",
+          "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+          "price": 135.0,
+          "category": "Pantry",
+          "icon": "🌻",
+          "description": "Light, healthy and cholesterol-friendly cooking oil"
+        },
+        "timestamp": "2026-11-06 12:15:34",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:45:34"
+      },
+      {
+        "item_id": "E819934E",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819934E",
+          "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+          "price": 245.0,
+          "category": "Pantry",
+          "icon": "🌾",
+          "description": "100% whole wheat grain chakki ground flour"
+        },
+        "timestamp": "2026-11-06 12:15:52",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:45:52"
+      },
+      {
+        "item_id": "E8190CA2",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8190CA2",
+          "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+          "price": 28.0,
+          "category": "Pantry",
+          "icon": "🧂",
+          "description": "Desh Ka Namak purest iodized cooking salt"
+        },
+        "timestamp": "2026-11-06 12:15:58",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 06:45:58"
+      }
+    ],
+    "subtotal": 484.0,
+    "tax": 24.2,
+    "total": 508.2,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202611061101-AD9A",
+    "timestamp": "2026-11-06 11:01:57",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E819D32A",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🥛",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "item_id": "E819D32A",
+          "category": "Dairy",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-10-31 11:38:52",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:08:52.662013+00:00"
+      },
+      {
+        "item_id": "E819D683",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🍞",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "item_id": "E819D683",
+          "category": "Bakery",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-10-31 11:38:56",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:08:56.09455+00:00"
+      },
+      {
+        "item_id": "E8192A5C",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "☕",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "item_id": "E8192A5C",
+          "category": "Beverages",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "timestamp": "2026-10-31 11:39:05",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:09:05.902148+00:00"
+      },
+      {
+        "item_id": "E819AB50",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🍫",
+          "name": "Cadbury Dairy Milk Silk (60g)",
+          "price": 85.0,
+          "item_id": "E819AB50",
+          "category": "Snacks",
+          "description": "Smooth and creamy pure milk chocolate bar"
+        },
+        "timestamp": "2026-10-31 11:43:15",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:13:15.50949+00:00"
+      },
+      {
+        "item_id": "E81992A6",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🍎",
+          "name": "Fresh Royal Gala Apples (1kg)",
+          "price": 160.0,
+          "item_id": "E81992A6",
+          "category": "Produce",
+          "description": "Crisp sweet Shimla hill orchard apples"
+        },
+        "timestamp": "2026-10-31 11:43:19",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:13:19.283193+00:00"
+      },
+      {
+        "item_id": "E819EF8A",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🍜",
+          "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+          "price": 56.0,
+          "item_id": "E819EF8A",
+          "category": "Pantry",
+          "description": "Classic Indian spice blend instant wheat noodles 280g"
+        },
+        "timestamp": "2026-10-31 11:43:31",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:13:31.720272+00:00"
+      },
+      {
+        "item_id": "E8198A76",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🥔",
+          "name": "Lay's India's Magic Masala Chips",
+          "price": 20.0,
+          "item_id": "E8198A76",
+          "category": "Snacks",
+          "description": "Crunchy ridge-cut spiced potato chips 50g"
+        },
+        "timestamp": "2026-10-31 12:13:05",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:43:05.872765+00:00"
+      },
+      {
+        "item_id": "E8191CAD",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🌻",
+          "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+          "price": 135.0,
+          "item_id": "E8191CAD",
+          "category": "Pantry",
+          "description": "Light, healthy and cholesterol-friendly cooking oil"
+        },
+        "timestamp": "2026-10-31 12:14:03",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:44:03.155684+00:00"
+      },
+      {
+        "item_id": "E819E0CF",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "icon": "🌾",
+          "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+          "price": 245.0,
+          "item_id": "E819E0CF",
+          "category": "Pantry",
+          "description": "100% whole wheat grain chakki ground flour"
+        },
+        "timestamp": "2026-10-31 12:14:31",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-31T06:44:31.417629+00:00"
+      },
+      {
+        "item_id": "E8198C9F",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8198C9F",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 11:01:24",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:31:24"
+      },
+      {
+        "item_id": "E819E6CC",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819E6CC",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-11-06 11:01:29",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:31:29"
+      },
+      {
+        "item_id": "E8191B93",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8191B93",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "timestamp": "2026-11-06 11:01:32",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:31:32"
+      },
+      {
+        "item_id": "E819E45D",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819E45D",
+          "name": "Cadbury Dairy Milk Silk (60g)",
+          "price": 85.0,
+          "category": "Snacks",
+          "icon": "🍫",
+          "description": "Smooth and creamy pure milk chocolate bar"
+        },
+        "timestamp": "2026-11-06 11:01:41",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:31:41"
+      },
+      {
+        "item_id": "E8196FC4",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8196FC4",
+          "name": "Fresh Royal Gala Apples (1kg)",
+          "price": 160.0,
+          "category": "Produce",
+          "icon": "🍎",
+          "description": "Crisp sweet Shimla hill orchard apples"
+        },
+        "timestamp": "2026-11-06 11:01:46",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:31:46"
+      }
+    ],
+    "subtotal": 1424.0,
+    "tax": 71.2,
+    "total": 1495.2,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202611061100-D47E",
+    "timestamp": "2026-11-06 11:00:10",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E819AE6B",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819AE6B",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 11:00:00",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:30:00"
+      },
+      {
+        "item_id": "E8199C8C",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8199C8C",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-11-06 11:00:02",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:30:02"
+      },
+      {
+        "item_id": "E8194F23",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8194F23",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 11:00:04",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:30:04"
+      }
+    ],
+    "subtotal": 153.0,
+    "tax": 7.65,
+    "total": 160.65,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202611061031-CB8E",
+    "timestamp": "2026-11-06 10:31:15",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E819867E",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819867E",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-11-06 10:30:50",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:00:50"
+      },
+      {
+        "item_id": "E819139B",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819139B",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-11-06 10:30:56",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:00:56"
+      },
+      {
+        "item_id": "E819EED2",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819EED2",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "timestamp": "2026-11-06 10:31:00",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:01:00"
+      },
+      {
+        "item_id": "E8195D02",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8195D02",
+          "name": "Cadbury Dairy Milk Silk (60g)",
+          "price": 85.0,
+          "category": "Snacks",
+          "icon": "🍫",
+          "description": "Smooth and creamy pure milk chocolate bar"
+        },
+        "timestamp": "2026-11-06 10:31:02",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:01:02"
+      },
+      {
+        "item_id": "E819EC9A",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E819EC9A",
+          "name": "Fresh Royal Gala Apples (1kg)",
+          "price": 160.0,
+          "category": "Produce",
+          "icon": "🍎",
+          "description": "Crisp sweet Shimla hill orchard apples"
+        },
+        "timestamp": "2026-11-06 10:31:04",
+        "scan_count": 1,
+        "last_scanned_at": "2026-11-06 05:01:04"
+      }
+    ],
+    "subtotal": 484.0,
+    "tax": 24.2,
+    "total": 508.2,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202610301556-E0A3",
+    "timestamp": "2026-10-30 15:56:47",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E8193DA9",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8193DA9",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "timestamp": "2026-10-30 15:54:12",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-30 10:24:12"
+      },
+      {
+        "item_id": "E8195691",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8195691",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "timestamp": "2026-10-30 15:54:20",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-30 10:24:20"
+      },
+      {
+        "item_id": "E81962BE",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E81962BE",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "timestamp": "2026-10-30 15:54:34",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-30 10:24:34"
+      },
+      {
+        "item_id": "E8191A1E",
+        "cart_id": "40:91:51:59:14:7E",
+        "status": "registered",
+        "action": "added",
+        "product": {
+          "item_id": "E8191A1E",
+          "name": "Cadbury Dairy Milk Silk (60g)",
+          "price": 85.0,
+          "category": "Snacks",
+          "icon": "🍫",
+          "description": "Smooth and creamy pure milk chocolate bar"
+        },
+        "timestamp": "2026-10-30 15:54:50",
+        "scan_count": 1,
+        "last_scanned_at": "2026-10-30 10:24:50"
+      }
+    ],
+    "subtotal": 324.0,
+    "tax": 16.2,
+    "total": 340.2,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202609291310-1873",
+    "timestamp": "2026-09-29 13:10:45",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "Tap & Pay / NFC Card",
+    "items": [
+      {
+        "item_id": "E8197738",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:15",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8197738",
+          "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+          "price": 135.0,
+          "category": "Pantry",
+          "icon": "🌻",
+          "description": "Light, healthy and cholesterol-friendly cooking oil"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:15"
+      },
+      {
+        "item_id": "E819A7E6",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:22",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819A7E6",
+          "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+          "price": 245.0,
+          "category": "Pantry",
+          "icon": "🌾",
+          "description": "100% whole wheat grain chakki ground flour"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:22"
+      },
+      {
+        "item_id": "E819AB89",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:24",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819AB89",
+          "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+          "price": 28.0,
+          "category": "Pantry",
+          "icon": "🧂",
+          "description": "Desh Ka Namak purest iodized cooking salt"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:24"
+      },
+      {
+        "item_id": "E819336E",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:26",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819336E",
+          "name": "Nescafe Classic Instant Coffee (50g)",
+          "price": 165.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "100% pure roasted robusta coffee beans"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:26"
+      },
+      {
+        "item_id": "E81970D3",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:29",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E81970D3",
+          "name": "Dettol Original Germ Protection Liquid Handwash (200ml)",
+          "price": 99.0,
+          "category": "Personal Care",
+          "icon": "🧴",
+          "description": "Antibacterial ph-balanced hand soap refill pack"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:29"
+      },
+      {
+        "item_id": "E819D844",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:31",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819D844",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:31"
+      },
+      {
+        "item_id": "E819599B",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-29 07:40:33",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819599B",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 13:10:33"
+      }
+    ],
+    "subtotal": 771.0,
+    "tax": 38.55,
+    "total": 809.55,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202609290059-C2C9",
+    "timestamp": "2026-09-29 00:59:23",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI (Google Pay / PhonePe / Paytm)",
+    "items": [
+      {
+        "item_id": "E8190904",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:26:33",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8190904",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:56:33"
+      },
+      {
+        "item_id": "E8192942",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:26:49",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8192942",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:56:49"
+      },
+      {
+        "item_id": "E819C620",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:28:50",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819C620",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:58:50"
+      }
+    ],
+    "subtotal": 239.0,
+    "tax": 11.95,
+    "total": 250.95,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202609290036-5EBF",
+    "timestamp": "2026-09-29 00:36:52",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "Cash at Self-Checkout Gate",
+    "items": [
+      {
+        "item_id": "E81992CB",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:32",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E81992CB",
+          "name": "Amul Taaza Fresh Milk 1L",
+          "price": 54.0,
+          "category": "Dairy",
+          "icon": "🥛",
+          "description": "Pasteurized homogenized toned milk"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:32"
+      },
+      {
+        "item_id": "E819835A",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:43",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819835A",
+          "name": "Britannia 100% Whole Wheat Bread",
+          "price": 45.0,
+          "category": "Bakery",
+          "icon": "🍞",
+          "description": "Zero maida high fiber whole wheat bread 400g"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:43"
+      },
+      {
+        "item_id": "E819C0B7",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:45",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819C0B7",
+          "name": "Tata Tea Gold (250g)",
+          "price": 140.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "Rich aroma Assam tea with gentle aromatic long leaves"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:45"
+      },
+      {
+        "item_id": "E819E2F8",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:48",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819E2F8",
+          "name": "Cadbury Dairy Milk Silk (60g)",
+          "price": 85.0,
+          "category": "Snacks",
+          "icon": "🍫",
+          "description": "Smooth and creamy pure milk chocolate bar"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:48"
+      },
+      {
+        "item_id": "E819D946",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:51",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819D946",
+          "name": "Fresh Royal Gala Apples (1kg)",
+          "price": 160.0,
+          "category": "Produce",
+          "icon": "🍎",
+          "description": "Crisp sweet Shimla hill orchard apples"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:51"
+      },
+      {
+        "item_id": "E8195486",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:54",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8195486",
+          "name": "Maggi 2-Minute Masala Noodles (Pack of 4)",
+          "price": 56.0,
+          "category": "Pantry",
+          "icon": "🍜",
+          "description": "Classic Indian spice blend instant wheat noodles 280g"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:54"
+      },
+      {
+        "item_id": "E8199FEF",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:56",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8199FEF",
+          "name": "Lay's India's Magic Masala Chips",
+          "price": 20.0,
+          "category": "Snacks",
+          "icon": "🥔",
+          "description": "Crunchy ridge-cut spiced potato chips 50g"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:56"
+      },
+      {
+        "item_id": "E819FDBA",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:04:58",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819FDBA",
+          "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+          "price": 135.0,
+          "category": "Pantry",
+          "icon": "🌻",
+          "description": "Light, healthy and cholesterol-friendly cooking oil"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:34:58"
+      },
+      {
+        "item_id": "E819EEA6",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:05:01",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819EEA6",
+          "name": "Aashirvaad Superior MP Shudh Chakki Atta (5kg)",
+          "price": 245.0,
+          "category": "Pantry",
+          "icon": "🌾",
+          "description": "100% whole wheat grain chakki ground flour"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:35:01"
+      },
+      {
+        "item_id": "E819E18D",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:05:03",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E819E18D",
+          "name": "Tata Salt Vacuum Evaporated Iodized (1kg)",
+          "price": 28.0,
+          "category": "Pantry",
+          "icon": "🧂",
+          "description": "Desh Ka Namak purest iodized cooking salt"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:35:03"
+      },
+      {
+        "item_id": "E8195029",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 19:05:06",
+        "physical_card_uid": "4344E819",
+        "product": {
+          "item_id": "E8195029",
+          "name": "Nescafe Classic Instant Coffee (50g)",
+          "price": 165.0,
+          "category": "Beverages",
+          "icon": "☕",
+          "description": "100% pure roasted robusta coffee beans"
+        },
+        "scan_count": 1,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:35:06"
+      }
+    ],
+    "subtotal": 1133.0,
+    "tax": 56.65,
+    "total": 1189.65,
+    "status": "PAID"
+  },
+  {
+    "receipt_id": "RCPT-202609290010-6874",
+    "timestamp": "2026-09-29 00:10:52",
+    "cart_id": "40:91:51:59:14:7E",
+    "customer_name": "Smart Shopper",
+    "payment_method": "UPI / QR Payment",
+    "items": [
+      {
+        "item_id": "4344E819",
+        "action": "added",
+        "cart_id": "40:91:51:59:14:7E",
+        "last_scanned_at": "2026-09-28 18:40:32",
+        "product": {
+          "item_id": "4344E819",
+          "category": "General",
+          "description": "Auto-registered RFID Tag 4344E819",
+          "icon": "🏷️",
+          "name": "Smart Retail Item #E819",
+          "price": 4.99
+        },
+        "scan_count": 3,
+        "status": "registered",
+        "timestamp": "2026-09-29 00:10:32"
+      }
+    ],
+    "subtotal": 4.99,
+    "tax": 0.25,
+    "total": 5.24,
+    "status": "PAID"
+  }
+]
